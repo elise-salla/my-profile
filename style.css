@@ -1,0 +1,88 @@
+body{
+background-color: #f4f3ee;
+font-family: "Abel", sans-serif;
+font-size: 15px;
+line-height: 20px;
+text-align: center;
+}
+h1{
+	color:#13505B;
+	font-size: 28px;
+	font-family: "Abel", sans-serif;
+	text-align: center;
+}
+h2, h3, h4, h5{
+	color: #FCB1A6;
+	font-size: 18px;
+	font-family: "Abel", sans-serif;
+	text-align: center;
+}
+a{
+	color: #49BEAA;
+	text-decoration: none;
+	transition: color 0.5 ease;
+	font-family: "Abel", sans-serif;
+}
+a:hover{
+	color: #13505B;
+text-decoration: underline;}
+
+
+.container{
+	width: 800px;
+	margin: 70px auto;
+}
+
+.card-white{
+	background-color: white;
+	padding: 10px;
+	border-radius: 15px;
+	box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+	width:700px;
+	margin: 20px auto;
+}
+
+.card-white:hover{
+	color: #b5838d
+}
+
+
+img{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%
+}
+
+#social-medias li {
+    display: inline;
+    padding: 0px 40px
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 800px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.button {
+    display: inline-block;
+    width: 115px;
+    height: 25px;
+    background: #f4f3ee;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: #49BEAA;
+    font-weight: bold;
+    line-height: 25px;
+}
